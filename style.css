@@ -1,0 +1,94 @@
+body {
+    margin: auto;
+    color:#F5F3F4;
+}
+
+#app-container{
+    border-radius: 50%;
+    background: linear-gradient(to top left,#660708,#BA181B);
+    align-items: center;
+    justify-content: center;
+    width: 650px;
+    height: auto;
+    padding:80px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
+
+#title {
+    text-align: center;
+    margin: 10px;
+}
+
+#set-session-container{
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin:20px;
+}
+#session-increment, #session-decrement, #break-increment, #break-decrement{
+    background: none;
+    outline: none;
+    box-shadow: none;
+    border: none;
+    font-size: 30px;
+    font-weight: 900;
+}
+#session-length{
+    font-size: 25px;
+}
+#set-time-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#set-break-container{
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin:20px;
+}
+#break-length{
+    font-size: 25px;
+}
+
+#display-container {
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin:10px;
+    justify-content: center;
+}
+#timer-label{
+    font-size: 30px;
+}
+#time-left{
+    font-size:40px;
+}
+
+#control-buttons-container {
+    display:flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    margin:20px;
+    justify-content: center;
+}
+
+#reset, #start_stop{
+    margin:20px;
+    padding:10px;
+    outline: none;
+    box-shadow: none;
+    border: none;
+    border-radius: 25%;
+    text-align: center;
+}
